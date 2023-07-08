@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Personal Website</title>
+	<link rel="stylesheet" href="styles.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    		<nav class="navbar">
+    	<ul>
+    		<li><a href="#home">Home</a></li>
+    		<li><a href="#about">About</a></li>
+    		<li><a href="#skill">Skill</a></li>
+    		<li><a href="#contact_form">Contact</a></li>
+    	</ul>
+    </nav>
+
+    <section class="home" id="home">
+    	<div class="main">
+    		<h1 class="headings">I AM <br> EDLYN ANGELES</h1>
+    	</div>
+    </section>
+
+     <section class="about" id="about">
+     		<div id="pic">
+     			<img src="bibi.jpg" alt="img" class="img1">	
+     			<div id="intro">
+                    <h1 class="headings">ABOUT</h1>
+     		  <h2>Hi!</h2>
+     		  <p>I'm Edlyn R. Angeles,19 years old and I was born and raised in Maragondon Cavite. I like watching horror movies,documentaries and bl series. I love to eat pares,ice-cream and spicy food because they giving me comfort when I'm sad or stress. I have three older siblings named Raymond,Richard,Regina and I'm the youngest. 
+     		   Both of my parents are gone,my mother died when I was ten years old and my father died last August 2022. I'm currently a first year college student at Cavite State University-Naic and pursuing BS Computer Science.</p>
+     	</div>       
+      </div>
+     </section>
+
+     <section class="skill" id="skill">
+     	<h1 class="headings">SKILL</h1>
+     	<div class="gallery">
+     	<img src="img1.jpg" alt="">
+     	<img src="img2.jpg" alt="">
+     	<img src="img3.jpg" alt="">
+     	     <p>Cooking is one of my skills,I really love making my own recipe. I like to eat that's why cooking is also giving me comfort and peace of mind.</p>
+     </div>
+     </section>
+     <form id="contact_form" action="#" method="POST" enctype="multipart/form-data" >
+        <h1>Contact</h1>
+        <div class="row">
+          <label class="required" for="name">Your name:</label>
+          <br>
+          <input id="name" class="input" name="name" type="text" value="" size="30" />
+          <br>
+          <span id="name_validation" class="error_message"></span>
+        </div>
+        <div class="row">
+          <label class="required" for="email">Your email:</label><br />
+          <input id="email" class="input" name="email" type="text" value="" size="30" />
+          <br>
+          <span id="email_validation" class="error_message"></span>
+        </div>
+        <div class="row">
+          <label class="required" for="message">Your message:</label><br />
+          <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea>
+          <br>
+          <span id="message_validation" class="error_message"></span>
+        </div>
+          
+          <input id="submit_button" type="submit" value="Send Message" />
+      </form>
+</body>
+</html>
